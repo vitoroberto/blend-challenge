@@ -1,6 +1,10 @@
-# Blend Challenge
+<h1 align="center">
+  Blend Challenge
+</h1>
 
-Um Aplicativo para listar, completar e deletar tarefas.
+<h4 align="center">
+  Um Aplicativo para listar, completar e deletar tarefas.
+</h4>
 
 ![website screenshot](./public/blend-challenge-page-image.png)
 
