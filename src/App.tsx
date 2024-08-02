@@ -11,6 +11,7 @@ function App() {
         <h1 className="mb-10 text-3xl font-bold text-[#4c9e45]">
           Grupo Blend Challenge
         </h1>
+        {/* Aqui eu passo os providers dos contextos para os componentes que precisam */}
         <TodoProvider>
           <Form />
           <TodoFilterProvider>
