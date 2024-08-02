@@ -8,7 +8,7 @@
 
 ![website screenshot](./public/blend-challenge-page-image.png)
 
-## Como rodar projeto localmente:
+## Como rodar o projeto localmente:
 
 ```bash
 # Clone esse repositório
