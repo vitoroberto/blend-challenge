@@ -9,7 +9,7 @@ export function TodoList() {
 
   const { todos, toggleTodo, deleteTodo } = useTodos();
 
-  // Nessa função eu filtro os to-dos e eu retorno os to-dos que correspondem ao filtro, ou seja, se o filtro for "completed" eu retorno apenas os to-dos que estiverem concluídos, se o filtro for "not-completed" eu retorno apenas os to-dos que não estiverem concluídos, se não for nenhum dos dois eu retorno todos os to-dos.
+  // Nessa função eu filtro os to-dos e retorno os que correspondem ao filtro, ou seja, se o filtro for "completed" eu retorno apenas os to-dos que estiverem concluídos, se o filtro for "not-completed" eu retorno apenas os to-dos que não estiverem concluídos, se não for nenhum dos dois eu retorno todos os to-dos.
   function handleFilter(todos: todoType) {
     if (filter === "completed") {
       return todos.completed;
