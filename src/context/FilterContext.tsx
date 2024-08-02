@@ -1,4 +1,4 @@
-// Decidi criar um contexto para o filtro de TO-DOS, dessa forma eu facilito a manutenção do código e a reutilização do estado do filtro entre componentes e evito "Prop Drilling"..
+// Decidi criar um contexto para o filtro de TO-DOS, dessa forma eu facilito a manutenção do código e a reutilização do estado do filtro entre componentes e evito "Prop Drilling".
 import { createContext, useState } from "react";
 
 export type TodoFilterType = "all" | "completed" | "not-completed";
